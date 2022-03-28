@@ -1,0 +1,10 @@
+.in-boton-mp button.mercadopago-button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color:  #28a745;
+}
+.in-boton-mp button.mercadopago-button:hover{
+    background-color: #28a745;
+    color:  #fff;
+}

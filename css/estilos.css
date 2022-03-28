@@ -1,0 +1,117 @@
+.text-scalabl{color: #5b455b;}
+
+.portada__ucema{
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.portada__flotante{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.logo__ucema{width: 350px;}
+.portada__titulo{
+    font-size: 2rem;
+    color: #5b455b;
+    font-weight: bold;
+}
+.portada__bajada{
+    font-size: 1.2rem;
+    color: #5b455b;
+    padding: 0 25%;
+}
+
+.btn-scalabl{
+    width: 100%;
+    border: 0;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.p__sobreElPrograma{
+    color: #5b455b;
+    font-size: 1rem;
+}
+
+.fran__img{
+    border-radius: 50%;
+    width: 100%;
+}
+.fran__p{
+    color: #5b455b;
+    font-size: 1rem;
+}
+
+/* modal */
+.modal-body-registro, .modal-body-registro-resultado{
+    border-top: 2px solid #000;
+    color: #5b455b;
+}
+.modal-title-registro, .modal-title-registro-resultado{
+    font-weight: bold;
+    color: #5b455b;
+}
+.btn-scalabl-modal {
+    color: #fff;
+    border-color: #5b455b;
+    background-color: #5b455b;
+}
+
+.btn-scalabl-modal:active,
+.btn-scalabl-modal:focus {
+    outline: none !important;
+    box-shadow: none;
+    background-color: #5b455b !important;
+    color: #f2f2f2;
+}
+
+.tb__modal{
+    border: 1px solid #5b455b;
+    color: #5b455b;
+    width: 100%;
+}
+
+.alerta__obligatorio{
+    color: red;
+    display: none;
+}
+
+.p__precioUcema{
+    margin-top: 0;
+    color: #5b455b;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .portada__ucema{
+        background-image: url("../img/portada-mobile.jpg");
+    }
+    .logo__ucema{width: 250px;}
+    .portada__titulo{font-size: 1.5rem;}
+    .portada__bajada{font-size: 1.0rem; padding: 0;}
+}
+
+.valor__tachado{
+    font-size: 16px;
+}
+.btn__descargarPrograma{
+    background-color: #5b455b;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 0;
+    border: 3px solid #5b455b;
+}
+.btn__descargarPrograma:hover{
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.fa-download{
+    font-size: 16px;
+}
